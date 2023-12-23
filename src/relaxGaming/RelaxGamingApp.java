@@ -6,11 +6,8 @@ public class RelaxGamingApp {
 		
 		DiceGames diceGames = new DiceGames();
 		
-		diceGames.simulate("firstGame");
-		diceGames.simulateHighPrecision("firstGame");
-		
+		diceGames.simulate("firstGame");		
 		diceGames.simulate("secondGame");
-		diceGames.simulateHighPrecision("secondGame");
-		
+	
 	    }
 	}
